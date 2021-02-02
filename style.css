@@ -10,15 +10,13 @@ span a {
     text-decoration: none;
     font-size: 13px;
 }
-header{margin-right: 2%;}
+
+header {
+    margin-right: 2%;
+}
 
 span a:hover {
     text-decoration: underline;
-}
-
-#logo {
-    position: relative;
-    width: 100%;
 }
 
 img {
@@ -29,6 +27,14 @@ img {
     padding-top: 10%;
     margin-left: auto;
     margin-right: auto;
+}
+
+#img-text {
+    display: block;
+    position: relative;
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    margin-left: 56%;
 }
 
 #search {
@@ -43,15 +49,17 @@ img {
     text-indent: 20px;
     font-size: 16px;
 }
-@media (max-width:605px) {
-    #search{
+
+@media (max-width: 605px) {
+    #search {
         width: 95%;
     }
 }
-#search:hover{
+
+#search:hover {
     background-color: #fff;
     box-shadow: 0 1px 6px rgb(32 33 36);
-    border-color: rgba(223,225,229,0);
+    border-color: rgba(223, 225, 229, 0);
 }
 
 #search:focus {
@@ -63,11 +71,12 @@ img {
 }
 
 #buttons-container {
-    padding-top:30px;
+    padding-top: 30px;
     display: block;
     text-align: -webkit-center;
 }
-.button{
+
+.button {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
@@ -78,14 +87,18 @@ img {
     height: 36px;
     text-align: center;
 }
-.button:hover{
+
+.button:hover {
     border: 1px solid #dadce0;
     color: #202124;
     cursor: pointer;
     box-shadow: 0 1px 1px rgb(0 0 0);
 }
-.button:focus{border: 1px solid #4d90fe;
+
+.button:focus {
+    border: 1px solid #4d90fe;
     outline: none;
 }
+
 
 
