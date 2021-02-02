@@ -12,26 +12,46 @@
     <span><a href="images.html">Images</a></span>
     <span><a href="index.html">Google Search</a></span>
 </div>
-<div id="label-container"><div id="advanced-search">Advanced Search</div></div>
-<div id="label">Find pages with... </div>
+<div id="label-container">
+    <div id="advanced-search">Advanced Search</div>
+</div>
+<div id="label">Find pages with...</div>
 <form action="https://google.com/search" name="f">
-
-    <div class="left-text">all these words:
+    <div>
+    <span class="left-text">all these words:
+    </span>
         <input name="as_q" class="input" type="text">
     </div>
-    <div class="left-text">this exact word or phrase:
+
+    <div class="margin">
+    <span class="left-text">this exact word or phrase:
+    </span>
         <input name="as_epq" class="input" type="text">
     </div>
-    <div class="left-text">any of these words:
+
+    <div class="margin">
+    <span class="left-text">any of these words:
+    </span>
         <input name="as_oq" class="input" type="text">
     </div>
-    <div class="left-text">none of these words:
+
+    <div class="margin">
+    <span class="left-text">none of these words:
+    </span>
         <input name="as_eq" class="input" type="text">
     </div>
-    <div class="left-text">numbers ranging from:
-        <input name="as_nlo" class="input number" type="text"> to <input name="as_nhi" class="input number" type="text">
+
+    <div class="margin">
+    <span class="left-text">numbers ranging from:
+    </span>
+        <input name="as_nlo" class="input number" type="text">
+        <span id="to">to</span>
+        <input name="as_nhi" class="input number" id="last" type="text">
     </div>
-   <div id="button-container"><input type="submit" value="Advanced Search" id="button"></div>
+
+    <div id="button-container">
+        <input type="submit" value="Advanced Search" id="button">
+    </div>
 </form>
 </body>
 </html>
